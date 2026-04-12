@@ -1,0 +1,6 @@
+Step,Problem Found,Action Taken,Rows Affected
+1,No shipment duration column,Created Shipment_Duration column (Ship Date − Order Date),All rows
+2,"41,296 null postal codes",Excluded postal_code from analysis — not all countries use postal codes,"41,296 rows"
+3,No discount category column,Created Discount_Range column using IF formula — 4 buckets,All rows
+4,No return status column,Created Is_Returned column using COUNTIF against Working_Returns,All rows
+5,"12,540 loss-making orders",Flagged in SQL analysis — root cause identified as excessive discounting,"12,540 rows"
