@@ -2,7 +2,7 @@
 
 ## Project Overview
 Retail sales analysis of 51,290 orders across 147 countries (2011–2014).  
-Tools used: PostgreSQL and Microsoft Excel.
+Tools used: PostgreSQL, Microsoft Excel, and Power BI.
 
 ## Key Business Insights
 - 24.45% of orders are loss-making due to excessive discounting
@@ -21,10 +21,16 @@ Tools used: PostgreSQL and Microsoft Excel.
 |------|-------------|
 | Global_Superstore_Analyst.sql | PostgreSQL analysis — 14 queries across 5 sections |
 | Global_Superstore_Sales_Analysis_.xlsm | Excel workbook — 11 sheets with pivot tables and charts |
-| Raw_Orders.csv | Original orders dataset |
-| Raw_Returns.csv | Returns data |
-| Raw_People.csv | Regional manager data |
+| Global_Superstore_Sales_Analysis.pbix | Power BI dashboard — 2 pages with drill through |
+| Raw_Orders.csv | Original orders dataset — 51,290 rows |
+| Raw_Returns.csv | Returns data — 1,173 rows |
+| Raw_People.csv | Regional manager data — 13 regions |
+| Working_Orders.csv | Cleaned dataset with added columns |
+| Working_People.csv | Cleaned manager data |
+| Working_Returns.csv | Cleaned returns data |
 | Data_Cleaning_Log.csv | Data cleaning steps documented |
+| Dashboard_Page1_Overview.png | Power BI Page 1 screenshot |
+| Dashboard_Page2_DrillThrough.png | Power BI Page 2 screenshot |
 
 ## Analysis Sections
 1. Data Quality Audit
@@ -32,6 +38,11 @@ Tools used: PostgreSQL and Microsoft Excel.
 3. Geographic Analysis
 4. Operational Analysis
 5. Discount Analysis
+   
+## Power BI Dashboard Preview
+
+![Page 1 Overview](Dashboard_Page1_Overview.png)
+![Page 2 Drill Through](Dashboard_Page2_DrillThrough.png)
 
 ## Author
 **Rupesh Gupta**  
