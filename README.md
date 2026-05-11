@@ -1,7 +1,7 @@
 # Global Superstore Sales Analysis
 
 ## Project Overview
-Retail sales analysis of 51,290 orders across 147 countries (2011–2014).  
+Retail sales analysis of 51,290 orders across 147 countries (2011–2014).
 Tools used: PostgreSQL, Microsoft Excel, and Power BI.
 
 ## Key Business Insights
@@ -16,6 +16,19 @@ Tools used: PostgreSQL, Microsoft Excel, and Power BI.
 - 51,290 orders | 147 countries | 2011–2014
 - Source: Kaggle Global Superstore Dataset
 
+## Power BI Dashboard Preview
+
+![Page 1 Overview](images/Dashboard_Page1_Overview.png)
+![Page 2 Drill Through](images/Dashboard_Page2_DrillThrough.png)
+
+## Excel Analysis Preview
+
+![Sub Category Analysis](images/01_Sub_Category_Analysis.png)
+![Country Analysis](images/02_Country_Analysis.png)
+![Regional Performance](images/03_Regional_Performance.png)
+![Discount Analysis](images/04_Discount_Analysis.png)
+![Returns Analysis](images/05_Returns_Analysis.png)
+
 ## Files in This Repository
 | File | Description |
 |------|-------------|
@@ -29,8 +42,7 @@ Tools used: PostgreSQL, Microsoft Excel, and Power BI.
 | Working_People.csv | Cleaned manager data |
 | Working_Returns.csv | Cleaned returns data |
 | Data_Cleaning_Log.csv | Data cleaning steps documented |
-| Dashboard_Page1_Overview.png | Power BI Page 1 screenshot |
-| Dashboard_Page2_DrillThrough.png | Power BI Page 2 screenshot |
+| images/ | Dashboard and Excel analysis screenshots |
 
 ## Analysis Sections
 1. Data Quality Audit
@@ -38,13 +50,8 @@ Tools used: PostgreSQL, Microsoft Excel, and Power BI.
 3. Geographic Analysis
 4. Operational Analysis
 5. Discount Analysis
-   
-## Power BI Dashboard Preview
-
-![Page 1 Overview](Dashboard_Page1_Overview.png)
-![Page 2 Drill Through](Dashboard_Page2_DrillThrough.png)
 
 ## Author
-**Rupesh Gupta**  
-BBA Student | Aspiring Data Analyst  
+**Rupesh Gupta**
+BBA Student | Aspiring Data Analyst
 [LinkedIn](https://linkedin.com/in/rupeshdataanalyst) | [GitHub](https://github.com/rupesh-gupta-data)
